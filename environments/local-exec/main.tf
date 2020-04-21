@@ -9,3 +9,9 @@ resource "null_resource" "newTest" {
     command = "echo goodbye world"
   }
 }
+
+resource "null_resource" "newWorkDir" {
+  provisioner "local-exec" {
+    command = "echo hello from new work dir"
+  }
+}
