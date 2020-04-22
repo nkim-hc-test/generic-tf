@@ -15,3 +15,13 @@ resource "null_resource" "newWorkDir" {
     command = "echo hello from new work dir"
   }
 }
+
+resource "null_resource" "varTest" {
+  provisioner "local-exec" {
+    command = "echo varTest"
+  }
+}
+
+output "test" {
+  value = var.outputTest
+}
