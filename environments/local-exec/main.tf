@@ -4,21 +4,15 @@ resource "null_resource" "test" {
   }
 }
 
-resource "null_resource" "newTest" {
-  provisioner "local-exec" {
-    command = "echo goodbye world"
-  }
-}
-
-resource "null_resource" "newWorkDir" {
-  provisioner "local-exec" {
-    command = "echo hello from new work dir"
-  }
-}
-
 resource "null_resource" "varTest" {
   provisioner "local-exec" {
     command = "echo varTest"
+  }
+}
+
+resource "null_resource" "varTest2" {
+  provisioner "local-exec" {
+    command = "echo varTest2"
   }
 }
 
