@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+# comment
 resource "null_resource" "stallmanCreate" {
   provisioner "local-exec" {
     command = "echo Stallman"
