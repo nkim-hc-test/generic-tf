@@ -2,7 +2,7 @@
 # NEW NEW COMMENT
 # NEW COMMENT
 # NEW NEW NEW COMMENT
-# Guido reCreated
+# Guido removed
 resource "null_resource" "pikeCreate" {
   provisioner "local-exec" {
     command = "echo pike"
