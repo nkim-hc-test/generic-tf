@@ -10,9 +10,9 @@ terraform {
 }
 
 # comment
-resource "null_resource" "guidoCreate" {
+resource "null_resource" "guidoReCreate" {
   provisioner "local-exec" {
-    command = "echo Guido"
+    command = "echo Guido Recreate"
   }
 }
 
