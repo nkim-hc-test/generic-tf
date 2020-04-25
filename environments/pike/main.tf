@@ -1,4 +1,3 @@
-# comment
 # NEW NEW COMMENT
 # NEW COMMENT
 # Guido removed
